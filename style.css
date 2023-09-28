@@ -283,8 +283,8 @@ input {
     min-height: 15rem;
     width: 100%;
     border-radius: 25px;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .favmealCard h2,
@@ -406,15 +406,15 @@ input {
     border-radius: 20px;
     border: 0px;
     background: linear-gradient(25deg, rgba(224, 134, 49, 0.342) 20%, rgba(167, 8, 8, 0.74) 100%);
-    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 }
 
 
 .modal::backdrop {
     background: rgba(0, 0, 0, 0.534);
-    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 
 }
 
