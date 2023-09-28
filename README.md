@@ -1,5 +1,13 @@
 # The Meal App
    This is an api based project, to help user find meals and its recipe, as well as add recipes to their favourites
 
-# Demo
+## Demo
    https://vibhashk007.github.io/meals-app/
+
+## Technology Used
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+
+    

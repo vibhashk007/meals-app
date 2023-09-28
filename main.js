@@ -279,7 +279,6 @@ function showfavpage(){
     document.getElementById("closeFavPageBtn").classList.toggle("hide-btn");                              //When overlay is opened or closed
     document.body.classList.toggle("overflowhidden");                                                     
     showFavMealList();
-    showMealCards();
 }
 
 
@@ -298,7 +297,7 @@ async function showFavMealList() {
         <h2>Your Favourites</h2>
         <h3>you have ${arr.length} favourited meals</h3>`;
         document.getElementById("favtxt").innerHTML=html;
-        html=`<img src="assets/404.png">`;        
+        html=`<div class="img404"> <img src="assets/404.png"> </div>`;        
         document.getElementById("favs").innerHTML=html;
     } else {
         html+=`

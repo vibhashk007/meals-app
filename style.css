@@ -169,7 +169,7 @@ button {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
     background-color: #f3efef27;
 }
 
@@ -632,6 +632,10 @@ li span {
 
 
 
+
+
+
+
 a,
 a:visited {
     text-decoration: none;
@@ -640,9 +644,33 @@ a:visited {
 
 
 @media screen and (max-width: 1550px) {
+    body {
+        max-height: 100vh;
+        background: url(assets/back.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .favmealCard,
+    .favmealCardInside,
+    .mealCard {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 60rem;
+        min-height: fit-content;
+        border-radius: 25px;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+
     .card-btns {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .recipeTitle {
@@ -665,5 +693,22 @@ a:visited {
 
     .instructions {
         width: 100%;
+    }
+
+    .img404 {
+        overflow: hidden;
+        margin: auto;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img404 img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        flex: 1 1 300px;
+        margin: auto;
     }
 }
