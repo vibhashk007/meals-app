@@ -407,12 +407,14 @@ input {
     border: 0px;
     background: linear-gradient(25deg, rgba(224, 134, 49, 0.342) 20%, rgba(167, 8, 8, 0.74) 100%);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 
 .modal::backdrop {
     background: rgba(0, 0, 0, 0.534);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
 }
 
