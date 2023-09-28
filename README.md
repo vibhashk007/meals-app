@@ -22,7 +22,7 @@
 
 
 ## Contact
-    Author - [Vibhash Kumar ](https://github.com/vibhashk007/) 
+Author - [Vibhash Kumar](https://github.com/vibhashk007/) 
 
 
 
