@@ -5,9 +5,7 @@
    https://vibhashk007.github.io/meals-app/
 
 ## Technology Used
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
+* HTML
+* CSS
+* JavScript (vanilla)
 
-    
