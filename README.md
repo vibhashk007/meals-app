@@ -17,9 +17,8 @@
 * Ability to restore saved meals even after reopening the browser
 * Responsive design works seamlessly on desktop and mobile dvices
 
-## Screenshots
-
-
+## API Used
+* [TheMealDB](https://www.themealdb.com/api.php)
 
 ## Contact
 Author - [Vibhash](https://github.com/vibhashk007/)
